@@ -89,7 +89,7 @@ AiPlayerbot.RandomBotAccountCount = 200
 
 # Random bot count
 AiPlayerbot.MinRandomBots = 50
-AiPlayerbot.MaxRandomBots = 50
+AiPlayerbot.MaxRandomBots = 500
 
 # Delete all random bot accounts (reset randombots)
 AiPlayerbot.DeleteRandomBotAccounts = 0
@@ -298,7 +298,7 @@ AiPlayerbot.MaxWaitForMove = 5000
 # Default: 0 - MoveSplinePath enabled
 #          1 - MoveSplinePath disabled in BG/Arena only
 #          2 - MoveSplinePath disabled everywhere
-AiPlayerbot.DisableMoveSplinePath = 0
+AiPlayerbot.DisableMoveSplinePath = 2
 
 # Max search time for movement (higher for better movement on slopes)
 # default: 3
@@ -344,14 +344,14 @@ AiPlayerbot.FarDistance = 20.0
 AiPlayerbot.SightDistance = 75.0
 AiPlayerbot.SpellDistance = 28.5
 AiPlayerbot.ShootDistance = 5.0
-AiPlayerbot.ReactDistance = 150.0
+AiPlayerbot.ReactDistance = 0
 AiPlayerbot.GrindDistance = 75.0
 AiPlayerbot.HealDistance = 38.5
 AiPlayerbot.LootDistance = 15.0
 AiPlayerbot.FleeDistance = 5.0
 AiPlayerbot.TooCloseDistance = 5.0
 AiPlayerbot.MeleeDistance = 0.75
-AiPlayerbot.FollowDistance = 1.5
+AiPlayerbot.FollowDistance = 2.5
 AiPlayerbot.WhisperDistance = 6000.0
 AiPlayerbot.ContactDistance = 0.45
 AiPlayerbot.AoeRadius = 10
