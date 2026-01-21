@@ -33,7 +33,7 @@
 #include <thread>
 
 #ifndef _PLAYERBOT_CONFIG
-# define _PLAYERBOT_CONFIG  "playerbots.conf"
+# define _PLAYERBOT_CONFIG  "/app/etc/playerbots.conf"
 #endif
 
 class mod_playerbots : public PlayerScript
