@@ -158,6 +158,10 @@ MySQLExecutable = ""
 
 IPLocationFile = ""
 
+
+# Strict version check (0 = disable, 1 = enable)
+StrictVersionCheck = 0
+
 #
 ###################################################################################################
 
